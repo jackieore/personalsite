@@ -432,6 +432,10 @@ footer a:hover {
     width: 100%;
     margin: 0 auto;
   }
+  h5 {
+  font-size: 0.5em;
+  color: #303030;
+} 
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
