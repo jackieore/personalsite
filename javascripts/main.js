@@ -1,1 +1,7 @@
-console.log('This would be the main JS file.');
+/**
+ * Main javascript file for styling of elements.
+ */
+
+$(document).ready(function() {
+	
+});
