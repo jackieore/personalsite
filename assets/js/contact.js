@@ -5,12 +5,13 @@ $(function () {
 
     $('#contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "assets/php/contact.php";
+            var url = "https://formspree.io/kayathom@gmail.com";
 
             $.ajax({
                 type: "POST",
                 url: url,
-                data: $(this).serialize(),
+                data: {$(this).serialize()},
+                dataType: "json",
                 success: function (data)
                 {
                     var messageAlert = 'alert-' + data.type;
